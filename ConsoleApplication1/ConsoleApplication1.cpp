@@ -3,9 +3,14 @@
 
 #include <iostream>
 
+int add(int x, int y) {
+    return x - y;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
-    int a = 1;
+    std::cout << "3 + 4 = " << add(3, 4) << std::endl;
+
     return 0;
 }
+
